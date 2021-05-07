@@ -1,0 +1,156 @@
+{
+	"env": {
+		"browser": true,
+			"react-native/react-native": true,
+		"es6": true,
+		"node": true
+	 },
+	 "extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	 "globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	 },
+	 "parserOptions": {
+		"ecmaFeatures": {
+				"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	 },
+	 "plugins":[
+		"react",
+		"react-native"
+	 ],
+	"rules": {
+		//"formatjs/no-offset": "error",
+		//"formatjs/enforce-id": "error",
+		//"formatjs/no-multiple-whitespaces": "error",
+		// "formatjs/no-emoji": "error",
+		//"formatjs/no-camel-case": "error",
+		// "formatjs/enforce-placeholders": "error",
+		//"formatjs/enforce-default-message": "error",
+		//"formatjs/enforce-description": "error",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"MemberExpression": 1,
+				"SwitchCase": 1
+			}
+		],
+		"no-mixed-spaces-and-tabs": [
+			"error",
+			"smart-tabs"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"linebreak-style": [
+			"off"
+		],
+		"no-useless-escape": [
+			"off"
+		],
+		"no-console": [
+			"error"
+		],
+		"space-before-function-paren": [
+			"error",
+			{
+				"anonymous": "never",
+				"named": "never",
+				"asyncArrow": "never"
+			}
+		],
+		"object-curly-spacing": [
+			2,
+			"always"
+		],
+		"require-atomic-updates": "off",
+		"prefer-const": "error",
+		"dot-notation": "error",
+		"no-var": "error",
+		"no-unused-vars": "error",
+		"no-undef": "off",
+		"no-tabs": "off",
+		"curly": "off",
+		"no-unneeded-ternary": "off",
+		"new-cap": "off",
+		"eqeqeq": "off",
+		"camelcase": "off",
+		"no-return-await": "off",
+		"no-use-before-define": "off",
+		"promise/param-names": "off",
+		"no-unused-expressions": "off",
+		"spaced-comment": "error",
+		"no-multi-spaces": "error",
+		"eol-last": "error",
+		"comma-spacing": "error",
+		"space-before-blocks": "error",
+		"key-spacing": "error",
+		"keyword-spacing": "error",
+		"space-in-parens": "error",
+		"space-infix-ops": "error",
+		"no-trailing-spaces": "error",
+		"brace-style": "error",
+		"arrow-spacing": "error",
+		"block-spacing": "error",
+		"semi-spacing": "error",
+		// "padded-blocks": "error",
+		"rest-spread-spacing": "error",
+		"comma-dangle": "error",
+		"template-curly-spacing": "error",
+		"no-sequences": "error",
+		// "import/no-duplicates": "error",
+		"no-multiple-empty-lines": "error",
+		"operator-linebreak": "error",
+		"jsx-quotes": "off",
+		"react/jsx-indent": [
+			2,
+			"tab",
+			{
+				"indentLogicalExpressions": false
+			}
+		],
+		"react/jsx-indent-props": "off",
+		"react/display-name": "off",
+		"react/jsx-no-bind": "off",
+		"react/prop-types": "off",
+		"react/jsx-boolean-value": "off",
+		"react/no-did-update-set-state": "off",
+		"react/jsx-no-duplicate-props": "off",
+		"react-native/no-unused-styles": 2,
+		"react-native/split-platform-components": 2,
+		"react-native/no-inline-styles": 2,
+		"react-native/no-color-literals": 2,
+		"react-native/no-raw-text": 2,
+		"react-native/sort-styles": [
+			"error",
+			"asc",
+			{
+				"ignoreClassNames": false,
+				"ignoreStyleProperties": false
+			}
+		],
+		"handle-callback-err": "off",
+		"no-undef-init": "off",
+		"no-throw-literal": "off",
+		"no-array-constructor": "off",
+		"no-useless-return": "off",
+		"no-useless-constructor": "off",
+		"import/first": "off",
+		"standard/computed-property-even-spacing": "off",
+		// "react-hooks/rules-of-hooks": "error",
+		// "react-hooks/exhaustive-deps": "warn",
+		"require-await": "warn",
+		"no-irregular-whitespace": "error"
+	}
+}
